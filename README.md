@@ -1,0 +1,2 @@
+# sliderController
+SliderController for slide
