@@ -1,0 +1,127 @@
+.b-r {
+    min-height: 360px;
+    height: 360px;
+    float: right;
+    width: 260px;
+    margin-bottom: 45px;
+}
+.b-body {
+    clear: both;
+}
+.mini-preview-wrapper {
+    position: relative;
+    width: 260px;
+    overflow: hidden;
+    border-radius: 4px
+}
+
+.mini-preview-wrapper .mini-preview-list-wrapper {
+    overflow: hidden;
+    border-radius: 4px
+}
+
+.mini-preview-wrapper .mini-preview {
+    width: 600%;
+    zoom: 1
+}
+
+.mini-preview-wrapper .mini-preview:after {
+    content: "";
+    display: block;
+    visibility: hidden;
+    height: 0;
+    clear: both;
+    font-size: 0
+}
+
+.mini-preview-wrapper .mini-preview li {
+    width: 260px;
+    height: 248px;
+    float: left;
+    overflow: hidden
+}
+
+.mini-preview-wrapper .mini-preview li img {
+    width: 100%;
+    height: 100%
+}
+
+.mini-preview-wrapper .slider-bar {
+    overflow: hidden;
+    text-align: center;
+    background: url(/images/base/layer.png) repeat;
+    background: rgba(0, 0, 0, 0.74)
+}
+
+.mini-preview-wrapper .slider-bar li {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    vertical-align: top;
+    cursor: pointer;
+    height: 6px;
+    padding: 9px 0;
+    margin: 0 2px
+}
+
+.mini-preview-wrapper .slider-bar li a {
+    display: block;
+    width: 10px;
+    height: 6px;
+    background-color: #fff;
+    border-radius: 5px;
+    transition: .2s
+}
+
+.mini-preview-wrapper .slider-bar li:hover a {
+    background-color: #f25d8e
+}
+
+.mini-preview-wrapper .slider-bar li.on a,
+.mini-preview-wrapper .slider-bar li.on:hover a {
+    width: 30px;
+    background-color: #f25d8e
+}
+
+.mini-preview-wrapper .s-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    border-radius: 0 0 4px 4px
+}
+
+.mini-preview-wrapper .s-bottom.notitle {
+    background: 0
+}
+
+.mini-preview-wrapper .info {
+    padding: 5px 10px 2px;
+    line-height: 20px;
+    background: url(/images/base/layer.png) repeat;
+    background: rgba(0, 0, 0, 0.6)
+}
+
+.mini-preview-wrapper .info .info-item {
+    display: none
+}
+
+.mini-preview-wrapper .info .info-item a.t {
+    display: block;
+    color: #fff;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis
+}
+
+.mini-preview-wrapper .info .info-item .bangumi-state {
+    color: #b8c0cc
+}
+
+.mini-preview-wrapper .info .info-item .bangumi-state span.bangumi-state-fav {
+    margin-left: 20px
+}
+
+.mini-preview-wrapper a {
+    color: #fff
+}
